@@ -1,0 +1,35 @@
+---
+title: "test_presentation"
+author: "tzalex"
+date: "4/12/2019"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+## my new slide
+
+text
+
+*italized*
+
+**bold**
+
+```{r, echo=TRUE}
+head(mtcars)
+```
+
+## R Markdown
+```{r, echo=TRUE}
+plot(mtcars$wt, mtcars$mpg, xlab="weight", ylab="MPG")
+```
+
+## Slide with Plot
+
+```{r pressure}
+plot(pressure)
+```
+
