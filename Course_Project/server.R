@@ -18,7 +18,7 @@ shinyServer(function(input, output) {
         
         # plot with ggplot
         gg <- ggplot(data = data_movies,
-                     aes_string(x=x_axis, y=y_axis, color=color_axis))
+                     aes_string(x = x_axis, y = y_axis, color = color_axis))
         gg <- gg + geom_point() + scale_color_gradientn(colors = rainbow(4))
         gg
         })
