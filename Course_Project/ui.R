@@ -33,4 +33,3 @@ shinyUI(fluidPage(
             plotOutput("plot1"))
     )
     ))
-

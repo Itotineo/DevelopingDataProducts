@@ -23,5 +23,3 @@ shinyServer(function(input, output) {
         gg
         })
 })
-
-
