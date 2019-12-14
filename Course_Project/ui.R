@@ -8,13 +8,13 @@ shinyUI(fluidPage(
             # radio buttons x
             radioButtons(inputId = "radiobuttons_x",
                          label = h3("Select x-axis"),
-                         choices = c("Year","Runtime_Minutes", "Rating", "Votes", "Revenue_MillionUSD"),
+                         choices = c("Year", "Runtime_Minutes", "Rating", "Votes", "Revenue_MillionUSD"),
                          selected = "Rating"),
             
             # radio buttons y
             radioButtons(inputId = "radiobuttons_y",
                          label = h3("Select y-axis"),
-                         choices = c("Year","Runtime_Minutes", "Rating", "Votes", "Revenue_MillionUSD"),
+                         choices = c("Year", "Runtime_Minutes", "Rating", "Votes", "Revenue_MillionUSD"),
                          selected = "Votes"),
             
             # radio buttons color
