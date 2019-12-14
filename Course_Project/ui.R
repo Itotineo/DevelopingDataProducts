@@ -20,7 +20,7 @@ shinyUI(fluidPage(
             # radio buttons color
             radioButtons(inputId = "radiobuttons_color",
                          label = h3("Select color parameter"),
-                         choices = c("Year","Runtime_Minutes", "Rating", "Votes", "Revenue_MillionUSD"),
+                         choices = c("Year", "Runtime_Minutes", "Rating", "Votes", "Revenue_MillionUSD"),
                          selected = "Year"),
         ),
         
